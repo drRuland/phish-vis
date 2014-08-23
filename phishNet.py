@@ -138,6 +138,7 @@ def get_show(showid, verbose=False):
 
 	else:
 		print 'Error - HTTP Response code: ', response
+		
 
 	## close the connection
 	f.close()
